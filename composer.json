@@ -1,45 +1,51 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "oliverearl/godsays-php",
+    "description": "A PHP means to talk to God",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "templeos",
+        "terry davis",
+        "TAD",
+        "god says",
+        "godwords"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/oliverearl/godsays-php",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Oliver Earl",
+            "email": "oliver@oliverearl.co.uk",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.4"
+        "php": "^7.4 || ^8.0"
     },
     "require-dev": {
-        :require_dev_testing,
-        :require_dev_codestyle,
-        "spatie/ray": "^1.28"
+        "phpunit/phpunit": "^9.6.22",
+        "friendsofphp/php-cs-fixer": "^3.21.1"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
-        }
+            "TAD\\God\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "TAD\\God\\Tests\\": "tests"
         }
     },
     "scripts": {
-        :scripts_testing,
-        :scripts_codestyle
+        "test": "vendor/bin/phpunit",
+            "test-coverage": "vendor/bin/phpunit --coverage",
+        "format": "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
     },
     "config": {
         "sort-packages": true,
         "allow-plugins": {
-            :plugins_testing,
+
             "phpstan/extension-installer": true
         }
     },
