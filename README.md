@@ -1,8 +1,8 @@
 # God Says
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/tad/godsays-php.svg?style=flat-square)](https://packagist.org/packages/tad/godsays-php)
-[![Tests](https://img.shields.io/github/actions/workflow/status/tad/godsays-php/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/tad/godsays-php/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/tad/godsays-php.svg?style=flat-square)](https://packagist.org/packages/tad/godsays-php)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/tad/godsays-php.svg?style=flat-square)](https://packagist.org/packages/oliverearl/godsays-php)
+[![Tests](https://img.shields.io/github/actions/workflow/status/oliverearl/godsays-php/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/tad/godsays-php/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/tad/godsays-php.svg?style=flat-square)](https://packagist.org/packages/oliverearl/godsays-php)
 
 GodSays-PHP is a PHP library inspired by TempleOS’s “god says"  program, originally created in HolyC by software 
 developer Terry A. Davis. It needs PHP 7.4 or above.
